@@ -21,7 +21,7 @@
     $chunk_size = ceil($size / $columns);
     ?>
 
-    <div class="container">
+    <div class="container background-color-brands">
         <!-- Example row of columns -->
         <div class="row">
 
