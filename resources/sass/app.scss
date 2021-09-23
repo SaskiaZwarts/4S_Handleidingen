@@ -64,3 +64,8 @@ a {
 a:hover {
     color: rgb(180, 115, 223);
 }
+
+.container > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
