@@ -1,6 +1,10 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+  <div class="footer-formatting">
+    <span class="contact"><p>{{ __('misc.contact') }}</p><p>06123456789</p><p>email@gmail.com</p></span>
+    <span class="copyright">© {{ __('misc.copyright') }} <br> {{ __('misc.over_ons') }}</span>
+    <span class="social"><a href="https://instagram.com">Instagram</a><a href="https://www.facebook.com/">Facebook</a><a href="https://twitter.com/">Twitter</a></span>
+  </div>
 </footer>
 
 
