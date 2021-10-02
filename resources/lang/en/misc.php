@@ -19,6 +19,7 @@ return [
 'copyright' => "Copyright 2017 Avarix",
 'over_ons' => "This is some text about us! Download manuals here.",
 'contact' => "Contact us!",
+'name' => "Saskia Zwarts",
 'download_manual' => "Click here to download the manual",
 'download_manual_alt' => "Download your manual here",
 'view_manual' => "Directly view your manual",
