@@ -31,20 +31,22 @@
     content: "/\00a0";
 }
 
-.background-color-brands{
+.background-color{
     background-color: #e9ecef;
 }
 
-footer{
-    position: fixed;
+footer {
+    position: relative;
     bottom: 0;
-    left:0;
-    padding: 15px;
+    left: 0;
+    padding: 5px;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
     background-color: #343a40 !important;
     color: white;
     width: 100%;
-}
+  }
 
 .navbar-brand {
   font-weight: 600;
@@ -68,4 +70,19 @@ a:hover {
 .container > ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-formatting{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-formatting p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social a{
+    display: block;
   }
