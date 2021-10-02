@@ -4,6 +4,7 @@
     <p>{{ __('introduction_texts.homepage_line_1') }}</p>
     <p>{{ __('introduction_texts.homepage_line_2') }}</p>
     <p>{{ __('introduction_texts.homepage_line_3') }}</p>
+    <p>{{ __('misc.name') }}</p>
 @endsection
 
 @section('content')
@@ -11,6 +12,7 @@
     <h1>
         @section('title')
             {{ __('misc.all_brands') }}
+            
         @show
     </h1>
 
