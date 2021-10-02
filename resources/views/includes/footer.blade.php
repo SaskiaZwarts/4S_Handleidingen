@@ -3,7 +3,24 @@
   <div class="footer-formatting">
     <span class="contact"><p>{{ __('misc.contact') }}</p><p>06123456789</p><p>email@gmail.com</p></span>
     <span class="copyright">© {{ __('misc.copyright') }} <br> {{ __('misc.over_ons') }}</span>
-    <span class="social"><a href="https://instagram.com">Instagram</a><a href="https://www.facebook.com/">Facebook</a><a href="https://twitter.com/">Twitter</a></span>
+    <div class="social">
+      <div class="social-icon facebook">
+        <div class="tooltip">Facebook</div>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </div>
+      <div class="social-icon twitter">
+        <div class="tooltip">Twitter</div>
+        <span><i class="fab fa-twitter"></i></span>
+      </div>
+      <div class="social-icon instagram">
+        <div class="tooltip">Instagram</div>
+        <span><i class="fab fa-instagram"></i></span>
+      </div>
+      <div class="social-icon youtube">
+        <div class="tooltip">Youtube</div>
+        <span><i class="fab fa-youtube"></i></span>
+      </div>
+    </div>
   </div>
 </footer>
 
